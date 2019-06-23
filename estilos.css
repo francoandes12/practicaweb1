@@ -32,7 +32,7 @@ body{
 h2{
     padding: 10px;
     border: 5px solid white;
-    color:black;
+    color:red;
     font-family: AldotheApache;
 }
 p{
@@ -83,4 +83,25 @@ p.caja{
 p.intro{
     color:red;
     font-family: AldotheApache;
+}
+#contenedor{
+    background:black;
+    padding: 10px;
+    overflow: hidden;
+}
+#izquierda1{
+    padding: 10px;
+    float: left;
+    color: #fff;
+    width: 560px;
+    margin: 10px;
+    background: grey;
+}
+#derecha1{
+    padding: 10px;
+    float: left;
+    color: #fff;
+    width: 560px;
+    margin: 10px;
+    background: grey;
 }
