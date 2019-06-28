@@ -36,7 +36,8 @@ h2{
     font-family: AldotheApache;
 }
 p{
-    color: aliceblue;
+    color: red;
+    font-size: 25px;
 }
 h3{
     color: red;
@@ -219,4 +220,16 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-    
+#contenedorparrafo{
+    padding: 10px;
+    background: black;
+    overflow: hidden;
+}
+#derechatracks2{
+    padding: 10px;
+    float: left;
+    color: #fff;
+    width: 560px;
+    margin: 10px;
+    background: grey;
+}
