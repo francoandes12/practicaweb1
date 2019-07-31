@@ -233,3 +233,10 @@ p.intro{
     margin: 10px;
     background: grey;
 }
+p.actualizada{
+    color: blue;
+    text-align: center;
+}
+#actualizada{
+    background-color: aliceblue
+}
