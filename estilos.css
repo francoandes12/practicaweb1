@@ -3,6 +3,7 @@ h1{
     font-size: 30pt;
     text-shadow: 5px 2px 4px grey;
     font-family: Hallo Oyster;
+    text-align: center;
 }
 h1{
     padding: 10px;
@@ -24,6 +25,7 @@ body{
     padding: 15px 20px;
     color:black;
     font-family: AldotheApache;
+    width: 20%;
 }
 .menu li a:hover{
     color: cornflowerblue;
@@ -71,7 +73,7 @@ footer{
     color: white;
     position: relative;
     bottom: 0%;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 p.intro{
     color:red;
@@ -174,7 +176,7 @@ p.intro{
     padding: 10px;
     float: left;
     color: #fff;
-    width: 560px;
+    width: 100%;
     margin: 10px;
     background: grey;
 }
@@ -182,9 +184,12 @@ p.intro{
     padding: 10px;
     float: left;
     color: #fff;
-    width: 560px;
+    width: 100%;
     margin: 10px;
     background: grey;
+}
+#iframeinicio1{
+    width: 90%;
 }
 #contenedortracks{
     background:black;
