@@ -221,7 +221,7 @@ p.intro {
     float: left;
     color: #fff;
     width: 50%;
-    min-width: 380px;
+    min-width: 300px;
     /*  width: 100%; */
     margin: 10px;
     background: grey;
@@ -241,8 +241,9 @@ p.intro {
     padding: 10px;
     float: left;
     color: #fff;
-    width: 560px;
     margin: 10px;
+    width: 45%;
+    min-width: 300px;
     background: grey;
 }
 
@@ -250,7 +251,8 @@ p.intro {
     padding: 10px;
     float: left;
     color: #fff;
-    width: 560px;
+    width: 45%;
+    min-width: 300px;
     margin: 10px;
     background: grey;
 }
@@ -265,7 +267,8 @@ p.intro {
     padding: 10px;
     float: left;
     color: #fff;
-    width: 560px;
+    width: 45%;
+    min-width: 300px;
     margin: 10px;
     background: grey;
 }
@@ -280,7 +283,8 @@ p.intro {
     padding: 10px;
     float: left;
     color: #fff;
-    width: 560px;
+    width: 45%;
+    min-width: 300px;
     margin: 10px;
     background: grey;
 }
@@ -292,4 +296,9 @@ p.actualizada {
 
 #actualizada {
     background-color: aliceblue
+}
+.primeralbum {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
 }
