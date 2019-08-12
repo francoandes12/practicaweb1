@@ -107,7 +107,8 @@ p.intro {
     padding: 10px;
     float: left;
     color: #fff;
-    width: 560px;
+    width: 45%;
+    min-width: 300px;
     margin: 10px;
     background: grey;
 }
@@ -116,83 +117,11 @@ p.intro {
     padding: 10px;
     float: left;
     color: #fff;
-    width: 560px;
+    width: 45%;
+    min-width: 300px;
     margin: 10px;
     background: grey;
 }
-
-#contenedor2 {
-    background: black;
-    padding: 10px;
-    overflow: hidden;
-}
-
-#izquierda2 {
-    padding: 10px;
-    float: left;
-    color: #fff;
-    width: 560px;
-    margin: 10px;
-    background: grey;
-}
-
-#derecha2 {
-    padding: 10px;
-    float: left;
-    color: #fff;
-    width: 560px;
-    margin: 10px;
-    background: grey;
-}
-
-#contenedor3 {
-    background: black;
-    padding: 10px;
-    overflow: hidden;
-}
-
-#izquierda3 {
-    padding: 10px;
-    float: left;
-    color: #fff;
-    width: 560px;
-    margin: 10px;
-    background: grey;
-}
-
-#derecha3 {
-    padding: 10px;
-    float: left;
-    color: #fff;
-    width: 560px;
-    margin: 10px;
-    background: grey;
-}
-
-#contenedor4 {
-    background: black;
-    padding: 10px;
-    overflow: hidden;
-}
-
-#izquierda4 {
-    padding: 10px;
-    float: left;
-    color: #fff;
-    width: 560px;
-    margin: 10px;
-    background: grey;
-}
-
-#derecha4 {
-    padding: 10px;
-    float: left;
-    color: #fff;
-    width: 560px;
-    margin: 10px;
-    background: grey;
-}
-
 #contacto {
     background: black;
     padding: 10px;
