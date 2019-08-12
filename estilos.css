@@ -1,90 +1,109 @@
-h1{
-    color:whitesmoke;
+h1 {
+    color: whitesmoke;
     font-size: 30pt;
     text-shadow: 5px 2px 4px grey;
     font-family: Hallo Oyster;
     text-align: center;
 }
-h1{
+
+h1 {
     padding: 10px;
     border: 5px solid white;
 }
-body{
+
+body {
     background-image: url(techno.jpg)
 }
-.navegacion{
+
+.navegacion {
     width: 100%;
     margin: 30px auto;
-    background:red;
+    background: red;
 }
-.navegacion ul{
+
+.navegacion ul {
     list-style: none;
 }
-.menu >li {
+
+.menu>li {
     display: inline-block;
     padding: 15px 20px;
-    color:black;
+    color: black;
     font-family: AldotheApache;
     width: 20%;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: cornflowerblue;
 
 }
-h2{
+
+h2 {
     padding: 10px;
     border: 5px solid white;
-    color:red;
+    color: red;
     font-family: AldotheApache;
 }
-p{
+
+p {
     color: red;
     font-size: 25px;
 }
-h3{
+
+h3 {
     color: red;
 }
-@font-face{
+
+@font-face {
     font-family: Hallo Oyster;
     src: url("Hallo Oyster.otf");
 }
-a:link{
+
+a:link {
     text-decoration: none;
     color: white;
 }
-a:visited{
+
+a:visited {
     color: white;
 }
-@font-face{
+
+@font-face {
     font-family: AldotheApache;
     src: url("AldotheApache.otf");
 }
-#tamaño{
+
+#tamaño {
     position: absolute;
     z-index: 1;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-span{
+
+span {
     color: grey;
 }
-footer{
+
+footer {
     color: white;
     position: relative;
     bottom: 0%;
     margin-left: 35%;
 }
-p.intro{
-    color:red;
+
+p.intro {
+    color: red;
     font-family: AldotheApache;
 }
-#contenedor{
-    background:black;
+
+#contenedor {
+    background: black;
     padding: 10px;
     overflow: hidden;
 }
-#izquierda1{
+
+#izquierda1 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -92,7 +111,8 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#derecha1{
+
+#derecha1 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -100,12 +120,14 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#contenedor2{
-    background:black;
+
+#contenedor2 {
+    background: black;
     padding: 10px;
     overflow: hidden;
 }
-#izquierda2{
+
+#izquierda2 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -113,7 +135,8 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#derecha2{
+
+#derecha2 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -121,12 +144,14 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#contenedor3{
-    background:black;
+
+#contenedor3 {
+    background: black;
     padding: 10px;
     overflow: hidden;
 }
-#izquierda3{
+
+#izquierda3 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -134,7 +159,8 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#derecha3{
+
+#derecha3 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -142,12 +168,14 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#contenedor4{
-    background:black;
+
+#contenedor4 {
+    background: black;
     padding: 10px;
     overflow: hidden;
 }
-#izquierda4{
+
+#izquierda4 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -155,7 +183,8 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#derecha4{
+
+#derecha4 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -163,40 +192,52 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#contacto{
+
+#contacto {
     background: black;
     padding: 10px;
 }
-#contenedorinicio{
-    background:black;
+
+#contenedorinicio {
+    background: black;
     padding: 10px;
     overflow: hidden;
+    
 }
-#izquierdainicio{
+
+#izquierdainicio {
     padding: 10px;
     float: left;
     color: #fff;
     width: 100%;
     margin: 10px;
     background: grey;
+    max-width: 560px;
+    min-width: 300px;
 }
-#derechainicio{
+
+#derechainicio {
     padding: 10px;
     float: left;
     color: #fff;
+    width: 50%;
+    min-width: 380px;
+    /*  width: 100%; */
+    margin: 10px;
+    background: grey;
+}
+
+#iframeinicio1 {
     width: 100%;
-    margin: 10px;
-    background: grey;
 }
-#iframeinicio1{
-    width: 90%;
-}
-#contenedortracks{
-    background:black;
+
+#contenedortracks {
+    background: black;
     padding: 10px;
     overflow: hidden;
 }
-#izquierdatracks1{
+
+#izquierdatracks1 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -204,7 +245,8 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#derechatracks1{
+
+#derechatracks1 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -212,12 +254,14 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#contenedortracks2{
-    background:black;
+
+#contenedortracks2 {
+    background: black;
     padding: 10px;
     overflow: hidden;
 }
-#izquierdatracks2{
+
+#izquierdatracks2 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -225,12 +269,14 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-#contenedorparrafo{
+
+#contenedorparrafo {
     padding: 10px;
     background: black;
     overflow: hidden;
 }
-#derechatracks2{
+
+#derechatracks2 {
     padding: 10px;
     float: left;
     color: #fff;
@@ -238,10 +284,12 @@ p.intro{
     margin: 10px;
     background: grey;
 }
-p.actualizada{
+
+p.actualizada {
     color: blue;
     text-align: center;
 }
-#actualizada{
+
+#actualizada {
     background-color: aliceblue
 }
