@@ -70,6 +70,9 @@ ul li a:hover:before{
     transform-origin: left;
     transform: scaleX(1);
 }
+h1 a:hover{
+    color: red;
+}
 a:visited{
     text-decoration: none;
     color: #fff;
@@ -161,6 +164,9 @@ p.intro {
     background: black;
     padding: 10px;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
     
 }
 
@@ -179,8 +185,9 @@ p.intro {
     padding: 10px;
     float: left;
     color: #fff;
-    width: 50%;
+    width: 100%;
     min-width: 300px;
+    max-width: 560px;
     /*  width: 100%; */
     margin: 10px;
     background: grey;
@@ -261,11 +268,16 @@ p.actualizada {
 }
 .primeralbum {
     padding: 10px;
-    float: left;
     color: #fff;
     margin: 10px;
     width: 45%;
     min-width: 300px;
     background: grey;
     
+}
+.Andes{
+    text-align: center;
+}
+.Andes a:hover{
+    color: red;
 }
