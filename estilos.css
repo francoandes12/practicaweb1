@@ -7,16 +7,18 @@ h1 {
     padding: 10px;
     border: 5px solid white;
 }
+
 body {
     background-image: url(techno.jpg)
 }
-nav{
+
+nav {
     width: 100%;
     margin: 0px auto;
     background: black;
 }
 
-ul{
+ul {
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -24,7 +26,8 @@ ul{
     width: 100%;
     height: auto;
 }
-ul li{
+
+ul li {
     list-style: none;
     margin: 2px 38px;
     transition: 0.5s;
@@ -32,7 +35,8 @@ ul li{
     padding: 10px 18px;
     display: inline-block;
 }
-ul li a{
+
+ul li a {
     display: block;
     position: relative;
     text-decoration: none;
@@ -42,17 +46,20 @@ ul li a{
     text-transform: uppercase;
     transition: 0.5s;
 }
-ul:hover li a{
+
+ul:hover li a {
     transform: scale(1.5);
     opacity: .2;
     filter: blur(5px);
 }
-ul li a:hover{
+
+ul li a:hover {
     transform: scale(2);
     opacity: 1;
     filter: blur(0);
 }
-ul li a:before{
+
+ul li a:before {
     content: '';
     position: absolute;
     top: 0;
@@ -65,22 +72,27 @@ ul li a:before{
     transform: scaleX(0);
     z-index: -1;
 }
-ul li a:hover:before{
+
+ul li a:hover:before {
     transition: transform 0.5s;
     transform-origin: left;
     transform: scaleX(1);
 }
-h1 a:hover{
+
+h1 a:hover {
     color: red;
 }
-a:visited{
+
+a:visited {
     text-decoration: none;
     color: #fff;
 }
-a:link{
+
+a:link {
     text-decoration: none;
     color: #fff;
 }
+
 h2 {
     padding: 10px;
     border: 5px solid white;
@@ -101,6 +113,7 @@ h3 {
     font-family: Hallo Oyster;
     src: url("Hallo Oyster.otf");
 }
+
 @font-face {
     font-family: AldotheApache;
     src: url("AldotheApache.otf");
@@ -125,9 +138,11 @@ footer {
     margin-left: 35%;
 }
 
-p.intro {
+#micaja {
     color: red;
     font-family: AldotheApache;
+    font-size: 30px;
+    text-align: center;
 }
 
 #contenedor {
@@ -155,6 +170,7 @@ p.intro {
     margin: 10px;
     background: grey;
 }
+
 #contacto {
     background: black;
     padding: 10px;
@@ -166,8 +182,8 @@ p.intro {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    
+    justify-content: space-around;
+
 }
 
 #izquierdainicio {
@@ -266,6 +282,7 @@ p.actualizada {
 #actualizada {
     background-color: aliceblue
 }
+
 .primeralbum {
     padding: 10px;
     color: #fff;
@@ -273,11 +290,13 @@ p.actualizada {
     width: 45%;
     min-width: 300px;
     background: grey;
-    
+
 }
-.Andes{
+
+.Andes {
     text-align: center;
 }
-.Andes a:hover{
+
+.Andes a:hover {
     color: red;
 }
