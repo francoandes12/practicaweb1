@@ -132,10 +132,12 @@ span {
 }
 
 footer {
-    color: white;
-    position: relative;
+    color: red;
+    position: absolute;
     bottom: 0%;
     margin-left: 35%;
+    font-family: Hallo Oyster;
+    font-size: 30px;
 }
 
 #micaja {
