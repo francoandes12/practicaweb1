@@ -238,23 +238,6 @@ footer {
     margin: 10px;
     background: grey;
 }
-
-#contenedortracks2 {
-    background: black;
-    padding: 10px;
-    overflow: hidden;
-}
-
-#izquierdatracks2 {
-    padding: 10px;
-    float: left;
-    color: #fff;
-    width: 45%;
-    min-width: 300px;
-    margin: 10px;
-    background: grey;
-}
-
 #contenedorparrafo {
     padding: 10px;
     background: black;
@@ -264,15 +247,6 @@ footer {
     text-align: center;
 }
 
-#derechatracks2 {
-    padding: 10px;
-    float: left;
-    color: #fff;
-    width: 45%;
-    min-width: 300px;
-    margin: 10px;
-    background: grey;
-}
 
 p.actualizada {
     color: blue;
