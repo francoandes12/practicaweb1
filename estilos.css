@@ -130,14 +130,6 @@ h3 {
 span {
     color: grey;
 }
-
-footer {
-    color: white;
-    position: relative;
-    bottom: 0%;
-    margin-left: 35%;
-}
-
 #micaja {
     color: red;
     font-family: AldotheApache;
@@ -183,6 +175,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: relative;
 
 }
 
