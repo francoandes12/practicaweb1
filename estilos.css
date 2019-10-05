@@ -216,9 +216,9 @@ span {
     padding: 10px;
     float: left;
     color: #fff;
-    margin: 10px;
+    margin: 0px;
     width: 45%;
-    min-width: 300px;
+    min-width: 250px;
     background: grey;
 }
 
@@ -227,8 +227,8 @@ span {
     float: left;
     color: #fff;
     width: 45%;
-    min-width: 300px;
-    margin: 10px;
+    min-width: 250px;
+    margin: 1px;
     background: grey;
 }
 #contenedorparrafo {
