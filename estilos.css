@@ -17,7 +17,6 @@ nav {
     margin: 0px auto;
     background: black;
 }
-
 ul {
     margin: 0px;
     padding: 0px;
@@ -25,6 +24,15 @@ ul {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
+    flex-direction: column;
+}
+@media screen and (min-width:768px){
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 100%;
+        justify-content: space-between;
+    }
 }
 
 ul li {
