@@ -288,9 +288,18 @@ p.actualizada {
     color: blue;
     text-align: center;
 }
-
+.descarga{
+    background-color: #AEFF87;
+    text-align: center;
+}
 #actualizada {
-    background-color: aliceblue
+    background-color: aliceblue;
+}
+h3.descarga{
+    color: #1950FF;
+}
+a.descarga{
+    color: #1950ff;
 }
 
 .primeralbum {
@@ -318,4 +327,22 @@ p.actualizada {
 
 h2 a:hover {
     color: #AEFF87;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    background-color: #AEFF87;
+}
+.link a{
+    color: #1950FF;
+}
+.link a:hover{
+    color: red;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.info a{
+    color: red;
 }
