@@ -382,7 +382,7 @@ h2 a:hover {
     width: 99%;
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .arriba{
     width: 50px;
