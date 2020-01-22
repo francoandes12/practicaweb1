@@ -10,6 +10,11 @@ $(document).ready(function(){
             scrollPercent = (scroll / (dh - wh)) * 100;
         $('#progreso').css('height', scrollPercent + '%');
     });
+    $("div#contenedor").hide();
+    $("div#contenedor1").hide();
+    $("div#contenedor2").hide();
+    $("div#contenedor3").hide();
+    $("div#contenedor4").hide();
     $('#botonmusica').click(function(){
         $("div#contenedor").toggle();
     });
@@ -19,4 +24,11 @@ $(document).ready(function(){
     $('#botonmusica2').click(function(){
         $("div#contenedor2").toggle();
     });
+    $('#botonmusica3').click(function(){
+        $("div#contenedor3").toggle();
+    });
+    $('#botonmusica4').click(function(){
+        $("div#contenedor4").toggle();
+    });
+    $("body").css("cursor","pointer");
 });

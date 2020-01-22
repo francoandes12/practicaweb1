@@ -214,7 +214,7 @@ span:hover{
     padding: 10px;
 }
 
-#contenedorinicio,#contenedor,#contenedorparrafo,#contenedor1,#contenedor2 {
+#contenedorinicio,#contenedor,#contenedorparrafo,#contenedor1,#contenedor2,#contenedor3,#contenedor4,#contenedor5 {
     background: black;
     padding: 10px;
     overflow: hidden;
@@ -245,7 +245,7 @@ span:hover{
         text-align: center;
         width: 98%;
     }
-    #contenedor,#contenedor2,#contenedor1 {
+    #contenedor,#contenedor2,#contenedor1,#contenedor3,#contenedor4,#contenedor5 {
         background: black;
         padding: 10px;
         overflow: hidden;
@@ -401,10 +401,14 @@ h2 a:hover {
     border-radius: 10px;
     background: linear-gradient(to top,#fcb045,#fd1d1d,#833ab4);
 }
-#botonmusica,#botonmusica1,#botonmusica2{
+#botonmusica,#botonmusica1,#botonmusica2,#botonmusica3,#botonmusica4{
     background-color: #1950ff;
     color: white;
     padding: 30px;
     width: 500px;
     font-size: 30px;
+}
+#julian{
+    width: 250px;
+    height: 250px;
 }
