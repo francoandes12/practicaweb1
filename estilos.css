@@ -214,7 +214,7 @@ span:hover{
     padding: 10px;
 }
 
-#contenedorinicio,#contenedor,#contenedorparrafo {
+#contenedorinicio,#contenedor,#contenedorparrafo,#contenedor1,#contenedor2 {
     background: black;
     padding: 10px;
     overflow: hidden;
@@ -245,7 +245,7 @@ span:hover{
         text-align: center;
         width: 98%;
     }
-    #contenedor {
+    #contenedor,#contenedor2,#contenedor1 {
         background: black;
         padding: 10px;
         overflow: hidden;
@@ -400,4 +400,11 @@ h2 a:hover {
     width: 15px;
     border-radius: 10px;
     background: linear-gradient(to top,#fcb045,#fd1d1d,#833ab4);
+}
+#botonmusica,#botonmusica1,#botonmusica2{
+    background-color: #1950ff;
+    color: white;
+    padding: 30px;
+    width: 500px;
+    font-size: 30px;
 }
